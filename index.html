@@ -1,30 +1,1851 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baby Products Online India: Newborn Baby Products & Kids Online Shopping at FirstCry.com</title>
     <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
 
-    <header id="home-header" class="py-10 border-black">
-        Header
+</head>
+
+<body>
+
+
+    <header id="home-header">
+        <div class="header-col1">
+            <div class="header-logo">
+                <img src="./assets/images/logo.png" alt="Logo Image">
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="Search for a Category, Brand or Product" />
+                <div class="header-searchIcon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+        </div>
+        <div class="header-col2">
+            <ul class="header-menu-links">
+                <li class="header-menu-item"><a href="#"><i class="fa-solid fa-location-dot"></i> Select Location</a></li>
+                <li class="header-menu-item"><a href="#">FirstCry Parenting</a></li>
+                <li class="header-menu-item"><a href="#">More</a></li>
+                <li class="header-menu-item"><a href="#">Login / Register</a></li>
+                <li class="header-menu-item header-cart-item">
+                    <a href="#">
+                        <span>
+                            <img src="./assets/images/cart-icon.png" alt="" width="30px" height="25px">
+                            <span class="cart-item-count">0</span>
+                        </span>
+                        <span>Cart</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
 
-    <nav id="home-navbar" class="py-10 border-red">
-        Navbar
+    <nav id="home-navbar">
+        <ul>
+            <li><a href="#" onmouseover="showDropdown('all-dropdown-main');" onmouseleave="hideDropdown('all-dropdown-main')">All Categories <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="#" onmouseover="showDropdown('dropdown1')" onmouseleave="hideDropdown('dropdown1')">Boy
+                    Fashion</a></li>
+            <li><a href="#" onmouseover="showDropdown('dropdown2')" onmouseleave="hideDropdown('dropdown2')">Girl
+                    Fashion</a></li>
+            <li><a href="#" onmouseover="showDropdown('dropdown3')"
+                    onmouseleave="hideDropdown('dropdown3')">Footwear</a></li>
+            <li><a href="#" onmouseover="showDropdown('dropdown4')" onmouseleave="hideDropdown('dropdown4')">Toy</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown5')"
+                    onmouseleave="hideDropdown('dropdown5')">Diapering</a></li>
+            <li><a href="#" onmouseover="showDropdown('dropdown6')" onmouseleave="hideDropdown('dropdown6')">Gear</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown7')" onmouseleave="hideDropdown('dropdown7')">Feeding</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown8')" onmouseleave="hideDropdown('dropdown8')">Bath</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown9')" onmouseleave="hideDropdown('dropdown9')">Nursery</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown10')" onmouseleave="hideDropdown('dropdown10')">Moms</a>
+            </li>
+            <li><a href="#" onmouseover="showDropdown('dropdown11')"
+                    onmouseleave="hideDropdown('dropdown11')">Health</a></li>
+        </ul>
+
+        <div class="navbar-all-dropdown hidden" id="all-dropdown-main" onmouseover="showDropdown('all-dropdown-main')"
+        onmouseleave="hideDropdown('all-dropdown-main')">
+            <div class="nav-all-dropdown-col1">
+                <ul>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown1')"
+                        onmouseleave="hideDropdown('all-dropdown1')">All Categories</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown1')"
+                            onmouseleave="hideDropdown('all-dropdown1')">Boy
+                            Fashion</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown2')"
+                            onmouseleave="hideDropdown('all-dropdown2')">Girl Fashion</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown3')"
+                            onmouseleave="hideDropdown('all-dropdown3')">Footwear</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown4')"
+                            onmouseleave="hideDropdown('all-dropdown4')">Toy</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown5')"
+                            onmouseleave="hideDropdown('all-dropdown5')">Diapering</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown6')"
+                            onmouseleave="hideDropdown('all-dropdown6')">Gear</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown7')"
+                            onmouseleave="hideDropdown('all-dropdown7')">Feeding</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown8')"
+                            onmouseleave="hideDropdown('all-dropdown8')">Bath</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown9')"
+                            onmouseleave="hideDropdown('all-dropdown9')">Nursery</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown10')"
+                            onmouseleave="hideDropdown('all-dropdown10')">Moms</a></li>
+                    <li><a href="#" onmouseover="showDropdown('all-dropdown11')"
+                            onmouseleave="hideDropdown('all-dropdown11')">Health</a></li>
+                </ul>
+            </div>
+            <div class="nav-all-dropdown-col2" id="all-dropdown-main">
+                <div class="nav-all-col2-head">
+                    <h4>ALL</h4>
+                </div>
+
+                <div class="navbar-all-col2-wrapper" id="all-dropdown1" onmouseover="showDropdown('all-dropdown1')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Boy & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown2" onmouseover="showDropdown('all-dropdown2')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Girl & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown3" onmouseover="showDropdown('all-dropdown3')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Footwear & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown4" onmouseover="showDropdown('all-dropdown4')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Toy & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown5" onmouseover="showDropdown('all-dropdown5')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown6" onmouseover="showDropdown('all-dropdown6')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown7" onmouseover="showDropdown('all-dropdown7')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown8" onmouseover="showDropdown('all-dropdown8')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown9" onmouseover="showDropdown('all-dropdown9')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown10" onmouseover="showDropdown('all-dropdown10')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-all-col2-wrapper hidden" id="all-dropdown11" onmouseover="showDropdown('all-dropdown11')">
+                    <div class="navbar-col2-links">
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                        <div class="navbar-link-col">
+                            <div class="navbar-col-item">
+                                <p>Categories</p>
+                                <a href="">Clothing & Fashion</a>
+                                <a href="">Toys</a>
+                                <a href="">Books & CDs</a>
+                                <a href="">School Supplies</a>
+                                <a href="">Birthday Party Supplies</a>
+                                <a href="">Baby & Diapering</a>
+                                <a href="">Feeding & Nursing</a>
+                                <a href="">Bath & Skincare</a>
+                            </div>
+                            <div class="navbar-col-item">
+                                <p>Company Info</p>
+                                <a href="">Contact Us</a>
+                                <a href="">Brands</a>
+                                <a href="">F.A.Q.s</a>
+                                <a href="">FirstCry School and Playschool</a>
+                                <a href="">Investor Relation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar-dropdown hidden" id="dropdown1" onmouseover="showDropdown('dropdown1')"
+            onmouseleave="hideDropdown('dropdown1')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown2" onmouseover="showDropdown('dropdown2')"
+            onmouseleave="hideDropdown('dropdown2')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown3" onmouseover="showDropdown('dropdown3')"
+            onmouseleave="hideDropdown('dropdown3')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown4" onmouseover="showDropdown('dropdown4')"
+            onmouseleave="hideDropdown('dropdown4')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown5" onmouseover="showDropdown('dropdown5')"
+            onmouseleave="hideDropdown('dropdown5')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown6" onmouseover="showDropdown('dropdown6')"
+            onmouseleave="hideDropdown('dropdown6')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown7" onmouseover="showDropdown('dropdown7')"
+            onmouseleave="hideDropdown('dropdown7')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown8" onmouseover="showDropdown('dropdown8')"
+            onmouseleave="hideDropdown('dropdown8')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown9" onmouseover="showDropdown('dropdown9')"
+            onmouseleave="hideDropdown('dropdown9')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown10" onmouseover="showDropdown('dropdown10')"
+            onmouseleave="hideDropdown('dropdown10')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-dropdown hidden" id="dropdown11" onmouseover="showDropdown('dropdown11')"
+            onmouseleave="hideDropdown('dropdown11')">
+            <div class="navbar-links">
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="navbar-link-col">
+                    <div class="navbar-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="navbar-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </nav>
-    <section id="featured-slider" class="py-0 border-black">
-        slider
+    <section id="featured-slider">
+        <div class="slider-wrapper">
+            <img src="./assets/images/slider/slider-img1.jpg" class="slider-img" alt="Featured Image1">
+            <img src="./assets/images/slider/slider-img2.jpg" class="slider-img" alt="Featured Image2">
+            <img src="./assets/images/slider/slider-img3.jpg" class="slider-img" alt="Featured Image3">
+            <img src="./assets/images/slider/slider-img4.jpg" class="slider-img" alt="Featured Image4">
+        </div>
+        <div class="slider-btn-wrapper">
+            <button onclick="prevSlider()" class="slider-prev-btn"><i class="fa-solid fa-chevron-left"></i> </button>
+            <button onclick="nextSlider()" class="slider-next-btn"> <i class="fa-solid fa-chevron-right"></i> </button>
+        </div>
     </section>
 
     <section class="premium-boutique py-30 px-10">
         <p class="pb-head">Premium Boutique</p>
         <div class="pb-cards-wrapper py-30">
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod1.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod1.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock</div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Soft Starts | Up To 14Y</p>
@@ -39,7 +1860,7 @@
             </div>
 
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod2.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod2.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock</div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Get Ready For Summer | Up To 14Y</p>
@@ -54,7 +1875,7 @@
             </div>
 
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod3.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod3.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Juicy & Joyful | Up To 14Y</p>
@@ -68,7 +1889,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod4.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod4.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Style that plays along |4 - to 14Y</p>
@@ -82,7 +1903,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod5.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod5.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">For the Playful side | 2 - 14Y</p>
@@ -96,7 +1917,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod6.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod6.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">United Colors of Benetton | Up To 14Y</p>
@@ -111,7 +1932,7 @@
             </div>
 
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod10.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod10.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Happy Little Steps| Up To 14Y</p>
@@ -125,10 +1946,10 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod11.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod11.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
-                    <p class="pb-card-head py-5">ARIAS by Lara Dutta  | Up To 14Y</p>
+                    <p class="pb-card-head py-5">ARIAS by Lara Dutta | Up To 14Y</p>
                     <div class="pb-card-footer">
                         <div class="pb-title-wrapper">
                             <p class="pb-card-title py-5">Flat 50% off</p>
@@ -139,7 +1960,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod12.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod12.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Cool & Casual | Up To 14Y</p>
@@ -153,7 +1974,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod13.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod13.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">All set To Go | Up To 14Y</p>
@@ -167,7 +1988,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod14.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod14.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">The 60% steal | Up To 14Y</p>
@@ -181,7 +2002,7 @@
                 </div>
             </div>
             <div class="pb-card">
-                <img src="./assets/images/premium-boutique/prod15.jpg" alt="product1" class="pb-card-img">
+                <img src="./assets/images/s1-premium-boutique/prod15.jpg" alt="product1" class="pb-card-img">
                 <div class="pb-stock-info p-10">Boutique open until last stock </div>
                 <div class="pb-card-info p-10">
                     <p class="pb-card-head py-5">Softness for Little Cuddles</p>
@@ -195,122 +2016,981 @@
                 </div>
             </div>
 
-            <a class="pb-all-btn p-20">View All Boutiques ></a>
+            <a class="pb-all-btn">View All Boutiques <i class="fa-solid fa-caret-right"></i></a>
         </div>
-       
+
     </section>
 
     <section class="summer-sale">
-        <img src="./assets/images/summer sale/summer-sale-header.jpg" class="summer-sale-header-img" alt="Summer sale">
+        <img src="./assets/images/s2-summer-sale/summer-sale-header.jpg" class="section-header-image" alt="Prod Image">
 
         <div class="summer-sale-items">
             <a class="summer-sale-card" href="#">
-                <img src="./assets/images/summer sale/summer-sale-prod1.jpg" alt="Product Image">
+                <img src="./assets/images/s2-summer-sale/summer-sale-prod1.jpg" alt="Product Image">
             </a>
             <a class="summer-sale-card" href="#">
-                <img src="./assets/images/summer sale/summer-sale-prod2.jpg" alt="Product Image">
+                <img src="./assets/images/s2-summer-sale/summer-sale-prod2.jpg" alt="Product Image">
             </a>
             <a class="summer-sale-card" href="#">
-                <img src="./assets/images/summer sale/summer-sale-prod3.jpg" alt="Product Image">
+                <img src="./assets/images/s2-summer-sale/summer-sale-prod3.jpg" alt="Product Image">
             </a>
             <a class="summer-sale-card" href="#">
-                <img src="./assets/images/summer sale/summer-sale-prod4.jpg" alt="Product Image">
+                <img src="./assets/images/s2-summer-sale/summer-sale-prod4.jpg" alt="Product Image">
             </a>
             <a class="summer-sale-card" href="#">
-                <img src="./assets/images/summer sale/summer-sale-prod5.jpg" alt="Product Image">
+                <img src="./assets/images/s2-summer-sale/summer-sale-prod5.jpg" alt="Product Image">
             </a>
         </div>
         <div class="summer-sale-footer">
             <a href="#">
-                <img src="./assets/images/summer sale/summer-sale-foot1.jpg" alt="">
-                <img src="./assets/images/summer sale/summer-sale-foot2.jpg" alt="">
+                <img src="./assets/images/s2-summer-sale/summer-sale-foot1.jpg" alt="">
+                <img src="./assets/images/s2-summer-sale/summer-sale-foot2.jpg" alt="">
             </a>
         </div>
     </section>
 
     <section class="home-section3">
         <a href="#">
-            <img src="./assets/images/section3/s3-img1.jpg" alt="Product Image">
+            <img src="./assets/images/s3/s3-img1.jpg" alt="Product Image">
         </a>
         <a href="#">
-            <img src="./assets/images/section3/s3-img2.jpg" alt="Product Image">
+            <img src="./assets/images/s3/s3-img2.jpg" alt="Product Image">
         </a>
     </section>
 
     <section class="summer-checklist">
-        <img src="./assets/images/summer-checklist/summer-checklist-header.jpg" class="summer-checklist-header" alt="">
+        <img src="./assets/images/s4-summer-checklist/summer-checklist-header.jpg" class="section-header-image" alt="">
 
         <div class="summer-checklist-row">
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r1-p1.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r1-p1.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r1-p2.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r1-p2.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r1-p3.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r1-p3.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r1-p4.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r1-p4.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r1-p5.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r1-p5.jpg" alt="Product Image">
             </a>
         </div>
 
         <div class="summer-checklist-row">
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r2-p1.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r2-p1.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r2-p2.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r2-p2.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r2-p3.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r2-p3.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r2-p4.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r2-p4.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r2-p5.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r2-p5.jpg" alt="Product Image">
             </a>
         </div>
 
         <div class="summer-checklist-row">
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r3-p1.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r3-p1.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r3-p2.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r3-p2.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r3-p3.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r3-p3.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r3-p4.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r3-p4.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r3-p5.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r3-p5.jpg" alt="Product Image">
             </a>
         </div>
         <div class="summer-checklist-row">
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r4-p1.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r4-p1.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r4-p2.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r4-p2.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r4-p3.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r4-p3.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r4-p4.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r4-p4.jpg" alt="Product Image">
             </a>
             <a href="#">
-                <img src="./assets/images/summer-checklist/checklist-r4-p5.jpg" alt="Product Image">
+                <img src="./assets/images/s4-summer-checklist/checklist-r4-p5.jpg" alt="Product Image">
             </a>
         </div>
 
     </section>
+
+
+    <section class="home-section5">
+        <img src="./assets/images/s5/section5-header.jpg" class="section-header-image" alt="Header Image">
+
+        <div class="s5-prod-row">
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod7.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s5/s5-prod8.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="best-of-lot">
+        <img src="./assets/images/s7-best-of-lot/s7-header-img.jpg" class="section-header-image" alt="">
+
+        <div class="best-of-lot-row">
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r1-prod5.jpg" alt="Product Image">
+            </a>
+        </div>
+
+        <div class="best-of-lot-row">
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-off1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r2-prod7.jpg" alt="Product Image">
+            </a>
+        </div>
+
+
+        <div class="best-of-lot-row">
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-off1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s7-best-of-lot/best-r3-prod7.jpg" alt="Product Image">
+            </a>
+        </div>
+
+        <img src="./assets/images/s7-best-of-lot/best-r4-prod.jpg" class="section-header-image" alt="">
+
+    </section>
+
+    <section class="home-daily-care">
+        <div class="daily-care-header-wrapper">
+            <a href="">
+                <img src="./assets/images/s8-daily-care/daily-care-main1.jpg" class="daily-care-header-img" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/images/s8-daily-care/daily-care-main2.jpg" class="daily-care-header-img" alt="">
+            </a>
+        </div>
+
+
+        <img src="./assets/images/s8-daily-care/baby-diapers/header-img.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/baby-diapers/prod7.jpg" alt="Product Image">
+            </a>
+        </div>
+
+        <img src="./assets/images/s8-daily-care/bath-skincare/header-img.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s8-daily-care/bath-skincare/prod7.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="home-kids-food">
+        <img src="./assets/images/s9-kids-food/main-image.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s9-kids-food/r2-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="home-toys-section">
+        <div class="daily-care-header-wrapper">
+            <a href="">
+                <img src="./assets/images/s10-toys/toy-main-img1.jpg" class="daily-care-header-img" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/images/s10-toys/toy-main-img2.jpg" class="daily-care-header-img" alt="">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s10-toys/toy-r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="home-activity-section">
+        <img src="./assets/images/s11-activity/activity-main-header.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-activity/act-r2-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="home-library-section">
+        <img src="./assets/images/s12-library/library-main-img.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s12-library/lib-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="home-authors-section">
+        <img src="./assets/images/s11-authors/authors-header.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n6.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s11-authors/author-n7.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="sports-section">
+        <div class="daily-care-header-wrapper">
+            <a href="">
+                <img src="./assets/images/s13-sports-gadgets/header-img1.jpg" class="daily-care-header-img" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/images/s13-sports-gadgets/header-img2.jpg" class="daily-care-header-img" alt="">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s13-sports-gadgets/r2-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="nursery-section">
+        <img src="./assets/images/s14-nursery/main-header-img1.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r1-prod5.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="daily-care-row">
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s14-nursery/r2-prod5.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="home-health-safety-section">
+        <img src="./assets/images/s15-health-safety/main-header-img.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s15-health-safety/prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="personal-care-section">
+        <img src="./assets/images/s16-personal-care/main-header-img.jpg" class="section-header-image" alt="">
+        <div class="daily-care-row">
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="daily-care-row">
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s16-personal-care/r2-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+    </section>
+
+    <section class="moms-marternity-section">
+        <div class="daily-care-header-wrapper">
+            <a href="">
+                <img src="./assets/images/s17-moms-maternity/main-header-img1.jpg" class="daily-care-header-img" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/images/s17-moms-maternity/main-header-img2.jpg" class="daily-care-header-img" alt="">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r1-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="daily-care-row">
+
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod1.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod2.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod3.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod4.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod5.jpg" alt="Product Image">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s17-moms-maternity/r2-prod6.jpg" alt="Product Image">
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <section class="home-section18">
+        <div class="s18-row1">
+            <a href="#">
+                <img src="./assets/images/s18/r1-img1.PNG" alt="Product Image" class="s18-row1-img1">
+            </a>
+            <a href="#">
+                <img src="./assets/images/s18/r1-img2.jpg" alt="Product Image" class="s18-row1-img2">
+            </a>
+        </div>
+
+        <div class="s18-row2">
+            <img src="./assets/images/s18/r2-img.jpg" alt="Product Image" class="s18-row1-img2">
+        </div>
+
+    </section>
+
+    <footer class="footer-section">
+        <span class="footer-top-heading">big stores for little ones</span>
+
+        <div class="footer-row1">
+            <div class="footer-links">
+                <div class="footer-link-col">
+                    <div class="footer-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="footer-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="footer-link-col">
+                    <div class="footer-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="footer-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="footer-link-col">
+                    <div class="footer-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="footer-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+                <div class="footer-link-col">
+                    <div class="footer-col-item">
+                        <p>Categories</p>
+                        <a href="">Clothing & Fashion</a>
+                        <a href="">Toys</a>
+                        <a href="">Books & CDs</a>
+                        <a href="">School Supplies</a>
+                        <a href="">Birthday Party Supplies</a>
+                        <a href="">Baby & Diapering</a>
+                        <a href="">Feeding & Nursing</a>
+                        <a href="">Bath & Skincare</a>
+                    </div>
+                    <div class="footer-col-item">
+                        <p>Company Info</p>
+                        <a href="">Contact Us</a>
+                        <a href="">Brands</a>
+                        <a href="">F.A.Q.s</a>
+                        <a href="">FirstCry School and Playschool</a>
+                        <a href="">Investor Relation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-more-items">
+                <div class="footer-more-row1">
+                    <div href="" class="more-row1-info">
+                        <img src="./assets/images/footer/footer-hut-img.png" alt="">
+
+                        <div class="fmore-row1-text">
+                            <p>Become Our Franchise Store</p>
+                            <a href="">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-more-row2">
+                    <img src="./assets/images/footer/footer-preshool-img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-row2">
+            <p class="footer-row2-head">Extended Menu</p>
+
+            <div class="footer-row2-content">
+                <div class="extended-menu-wrapper">
+                    <ul class="extended-menu-item">
+                        <span>Popular Clothers and shoes </span>
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li>
+                    </ul>
+                    <ul class="extended-menu-item">
+                        <span>Popular Clothers and shoes </span>
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li> |
+                        <li><a href="#">Dresses for Girls</a></li> |
+                        <li><a href="#">Traditional Dress for Girls</a></li> |
+                        <li><a href="#">Partywear Dress for Girls</a></li>
+                    </ul>
+                </div>
+                <div class="extended-text-wrapper">
+                    <div class="extended-text-item">
+                        <span>FirstCry India ~ Online Store for Baby & Kids Products</span>
+                        <p>Explore kids and baby products galore at FirstCry.com, the Big Store for Little Ones. We at
+                            FirstCry.com empathize with you as a mother who always aspires to bestow her newborn,
+                            infant, baby or kid with the best things even for their smallest needs. That is why, 'Mommy
+                            Knows Best'. From breastfeeding to bathing essentials, right furniture to myriad baby care
+                            products, a mother needs them all for her lil' one. This inspires us to offer convenient &
+                            hassle-free online shopping not just for babies & kids but for moms-to-be & new moms as
+                            well.
+                            Shop for baby & kids products from top-notch national and international brands like Babyhug,
+                            Chicco, Graco, BSA, Johnson & Johnson, Huggies, Pampers, Medela, Pigeon, Mothercare,
+                            Fisher-Price, FunSkool, Lego, Disney, Barbie and more you can look forward to an
+                            unparalleled shopping experience with us. Shop for baby & kids products online ranging
+                            across diapering, feeding & nursing, skin & health care, baby & kids toys, newborn & infant
+                            clothing, baby clothes, kids wear, footwear, fashion accessories, baby gear, nursery, kids
+                            furniture, gifts, party supplies, books & CDs, school supplies and more at great discounts.
+                            With the FirstCry mobile app, now you can shop on the go! Download the FirstCry Android and
+                            the iOS app and Voila!</p>
+                    </div>
+                    <div class="extended-text-item">
+                        <span>Newborn & Baby Products Online Shopping in India</span>
+                        <p>Along with all your affection and attention, your little bundle of joy deserves the best when
+                            it comes to newborn & baby items. Pamper your lil' one with the widest range of newborn &
+                            baby products: right from diapers to potty chairs, onesies to party wear, booties to clogs,
+                            carry-cots to baby walkers, rattles to learning toys, FirstCry has it all! FirstCry newborn
+                            baby shopping checklist.</p>
+                    </div>
+                    <div class="extended-text-item">
+                        <span>Online Shopping for Kids at FirstCry.com</span>
+                        <p>Shopping for your kid is no child's play and thus we help you explore, choose and buy from an
+                            exhaustive & finest collection of kids' products. FirstCry buying guides, premium store,
+                            boutiques, products checklist, and look-books are all aimed towards an enriching and a
+                            fulfilling shopping experience. That's what makes us your go-to online store for kids
+                            shopping.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <span>© 2010-2025 www.FirstCry.com. All rights reserved. This website can be best viewed in a resolution
+                width of 1024 and above.</span>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function showDropdown(category) {
+            document.getElementById(category).classList.remove('hidden');
+        }
+        function hideDropdown(category) {
+            document.getElementById(category).classList.add('hidden');
+        }
+
+        const slides = document.querySelectorAll('.slider-img');
+        console.log(slides)
+
+        let counter = 0;
+        slides.forEach((slide, index) => {
+            slide.style.left = `${index * 100}%`;
+        })
+
+        let sliderInterval = setInterval(nextSlider, 5000);
+
+        function resetInterval() {
+            clearInterval(sliderInterval);
+            sliderInterval = setInterval(nextSlider, 5000);
+        }
+        function nextSlider() {
+            if(counter === slides.length - 1){
+                counter = 0;
+            } else {
+                counter++;
+            }
+            slideImage();
+            slideImage(); 
+            resetInterval(); 
+        }
+        function prevSlider() {
+            if(counter === 0){
+                counter = slides.length - 1;
+            }else {
+                counter--;
+            }
+            slideImage();
+            slideImage(); 
+            resetInterval();
+        }
+
+        const slideImage = () => {
+            slides.forEach((slide) => {
+                slide.style.transform = `translateX(-${counter * 100}%)`
+            })
+        }
+    </script>
 </body>
+
 </html>
