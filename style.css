@@ -43,7 +43,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.pl-50{
+    padding-left: 50px !important;
+}
 .py-5 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -81,12 +83,37 @@ img{
 }
 
 
-
+/* section classes */
 .section-header-image{
     width: 100%;
     height: 100%;
     background-size: cover;
     margin-bottom: 10px;
+}
+.home-section-row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.home-section-row a{
+    text-decoration: none;
+    width: 20%;
+    height: 20%;
+}
+.home-section-row img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.home-duo-header-wrapper{
+    display: flex;
+    margin: 10px 0;
+}
+.home-duo-header-wrapper a{
+    width: 50%;
+    text-decoration: none;
 }
 
 /* Main Header */
@@ -295,23 +322,34 @@ img{
 .navbar-dropdown:hover{
     display: block;
 }
+
+.navbar-col-item{
+    margin-bottom: 10px;
+}
+
 .navbar-links{
-    width: 60%;
+    width: 100%;
     display: flex;
-    gap:20px;
+    gap:50px;
+}
+.navbar-col-item{
+    margin-bottom: 10px;
 }
 .navbar-col-item p{
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 8px;
     border-bottom: 1px solid rgb(165, 165, 165);
-    color: #575757;
+    color: #000000;
     text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 6px;
 }
 .navbar-col-item a{
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
     padding: 4px 0;
     text-align: left;
     color: #575757;
@@ -675,7 +713,29 @@ img{
 .s18-row2 img{
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: cover
+}
+
+.s18-row3{
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    padding: 40px 0;
+    background-color: #eee;
+}
+.s18-row3 ul{
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    animation: scroll 70s linear infinite;
+}
+.s18-row3:hover ul{
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    to{
+        transform: translateX(-100%);
+    }
 }
 
 .footer-section{
@@ -714,18 +774,23 @@ img{
     display: flex;
     gap:20px;
 }
+.footer-col-item{
+    margin-bottom: 10px;
+}
 .footer-col-item p{
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 8px;
     border-bottom: 1px solid rgb(165, 165, 165);
     color: #575757;
     text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 6px;
 }
 .footer-col-item a{
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 0;
     text-align: left;
     color: #575757;
@@ -781,12 +846,13 @@ img{
     margin-top: 40px;
 }
 .footer-row2 .footer-row2-head{
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     color: #575757;
-    padding: 8px 0;
+    padding: 15px 0;
+    font-size: 15px;
 }
 .extended-menu-wrapper{
     margin-top: 30px;
