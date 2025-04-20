@@ -446,7 +446,7 @@ img{
 }
 
 .pb-card {
-    width: 380px;
+    max-width: 380px;
     min-height: 200px;
     background-color: #fff;
     border-radius: 5px;
@@ -729,6 +729,7 @@ img{
     user-select: none;
     padding: 40px 0;
     background-color: #eee;
+    width: 100%;
 }
 .s18-row3 ul{
     list-style: none;
@@ -912,13 +913,35 @@ img{
 }
 
 @media (max-width: 580px) {
+    #home-navbar {
+        padding: 0px 0px;
+    }
     .footer-more-items {
         display: none;
     }
-    .pb-card-1{
-        display: none;
+    .pb-card {
+        width: 280px;
+        min-height: 150px;
     }
-    .pb-card-3{
-        display: none;
+    
+    .pb-card-img {
+        width: 100%;
+        height: 240px;
+    }
+    .footer-top-heading {
+        top: -26px;
+        width: 288px;
+        height: 50px;
+        font-size: 23px;
+    }
+    .slider-wrapper {
+        width: 95%;
+        height: 280px;
+    }
+    .slider-next-btn {
+        right: 8px;
+    }
+    .slider-prev-btn {
+        left: 8px;
     }
 }
